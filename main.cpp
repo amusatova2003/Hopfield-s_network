@@ -359,5 +359,10 @@ int main()
 		window.display();
 	}
 
+	for (int i = 0; i < N; i++) {
+		delete X[i];
+	}
+	delete[]X;
+
 	return 0;
 }
